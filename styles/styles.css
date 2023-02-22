@@ -364,3 +364,67 @@ main{
 .navbar-link.active{
   color: var(--orange-yellow-crayola);
 }
+
+/* About */
+article{
+  background: var(--eerie-black-2);
+  border: 1px solid var(--jet);
+  border-radius: 20px;
+  box-shadow: var(--shadow-1);
+  z-index: 1;
+  display: none;
+  padding: 15px;
+}
+
+article.active{
+  display: block;
+  animation: fade 0.5s ease backwards;
+}
+
+@keyframes fade{
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.h2,
+.h3,
+.h4,
+.h5{
+  color: var(--white-2);
+  text-transform: capitalize;
+}
+
+.h2{
+  font-size: var(--fs-1);
+}
+
+.article-title{
+  position: relative;
+  padding-bottom: 7px;
+}
+
+.article-title::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 3px;
+  background: var(--text-gradient-yellow);
+  border-radius: 3px;
+}
+
+.about .article-title{
+  margin-bottom: 15px; 
+}
+
+.about-text{
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.about-text p{
+  margin-bottom: 15px; 
+}
