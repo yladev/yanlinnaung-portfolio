@@ -1270,7 +1270,7 @@ textarea.form-input::-webkit-resizer{
   .clients-item{
     min-width: calc(33.33% - 10px);
   }
-
+  
   /* Portfolio, Blog */
   .project-img,
   .blog-banner-box{
@@ -1327,7 +1327,7 @@ textarea.form-input::-webkit-resizer{
   }
 
   .sidebar.active{
-    max-height: 584px; 
+    max-height: 884px; 
   }
 
   .sidebar-info{
@@ -1783,10 +1783,14 @@ textarea.form-input::-webkit-resizer{
     position: sticky;
     top: 60px;
     max-height: max-content;
-    height: 100%;
+    height: 400px;
     margin-bottom: 0;
     padding-top: 60px;
     z-index: 1;
+  }
+
+  .sidebar.active{
+    height : 100%;
   }
 
   .sidebar-info{
