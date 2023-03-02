@@ -880,4 +880,5 @@ a{
 .tech-stack-img img:hover{
   filter: saturate(0);
   transition: var(--transition-2);
+  cursor: pointer;
 }
