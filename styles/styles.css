@@ -1270,11 +1270,20 @@ textarea.form-input::-webkit-resizer{
   .clients-item{
     min-width: calc(33.33% - 10px);
   }
-  
+
+  /* Tech Stack */
+  .tech-stack-title{
+    width: 24%;
+  }
+
   /* Portfolio, Blog */
   .project-img,
   .blog-banner-box{
     height: auto; 
+  }
+
+  .project-img img{
+    height: 250px;
   }
 }
 
@@ -1416,9 +1425,10 @@ textarea.form-input::-webkit-resizer{
   }
 
   .service-content-box{ 
-    text-align: left; }
-  /* testimonials */
+    text-align: left; 
+  }
 
+  /* testimonials */
   .testimonials-title{
     margin-bottom: 25px;
   }
@@ -1455,7 +1465,6 @@ textarea.form-input::-webkit-resizer{
   }
 
   /* testimonials modal */
-
   .modal-container{ 
     padding: 20px;
   }
@@ -1491,7 +1500,6 @@ textarea.form-input::-webkit-resizer{
   }
 
   /* clients */
-
   .clients-list{
     gap: 50px;
     margin: 0 -30px;
@@ -1522,9 +1530,18 @@ textarea.form-input::-webkit-resizer{
     margin-bottom: 25px;
   }
 
+  /* Tech Stack */
+  .tech-stack-title{
+    width: 26%;
+  }
+
   /* Portfolio, Blog */
   .project-img, .blog-banner-box{
     border-radius: 16px; 
+  }
+
+  .project-img img{
+    height: 220px;
   }
 
   .blog-posts-list{ 
@@ -1562,7 +1579,6 @@ textarea.form-input::-webkit-resizer{
   .form-btn ion-icon{
     font-size: 18px; 
   }
-
 }
 
 /* Responsive larger than 768px screen */
@@ -1598,6 +1614,20 @@ textarea.form-input::-webkit-resizer{
     width: 80px; 
   }
 
+  /* Resume */
+  /* Tech Stack */
+  .tech-stack-title{
+    width: 18.5%;
+  }
+
+  .tech-stack-img{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.15rem;
+    margin-top: 2rem;
+    margin-left: -1.4rem;  
+  }
+
   /* Portfolio */
   .article-title{ 
     padding-bottom: 20px; 
@@ -1631,9 +1661,12 @@ textarea.form-input::-webkit-resizer{
   }
 
   /* Portfolio and Blog Grid */
-
   .project-list, .blog-posts-list{
     grid-template-columns: 1fr 1fr; 
+  }
+
+  .project-img img{
+    height: 150px;
   }
 
   /* Contact */
@@ -1645,7 +1678,6 @@ textarea.form-input::-webkit-resizer{
     width: max-content;
     margin-left: auto;
   }
-  
 }
 
 /* Responsive larger than 1024px screen */
@@ -1712,17 +1744,34 @@ textarea.form-input::-webkit-resizer{
   .clients-item{
     min-width: calc(25% - 38px); 
   }
+
+  /* Resume */
+  /* Tech Stack */
+  .tech-stack-title{
+    width: 13.5%;
+  }
+
+  .tech-stack-img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
   
   /* Portfolio */
   .project-list{ 
     grid-template-columns: repeat(3, 1fr);
   }
 
+  /* Portfolio */
+  .project-img img{
+    height: 140px;
+  }
+
   /* Blog */
   .blog-banner-box{
     height: 230px; 
   }
-
 }
 
 /* Responsive larger than 1250px screen */
@@ -1845,5 +1894,22 @@ textarea.form-input::-webkit-resizer{
   /* Resume */
   .timeline-text { 
     max-width: 700px; 
+  }
+
+  /* Tech Stack */
+  .tech-stack-title{
+    width: 14%;
+  }
+
+  .tech-stack-img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  /* Portfolio */
+  .project-img img{
+    height: 150px;
   }
 }
