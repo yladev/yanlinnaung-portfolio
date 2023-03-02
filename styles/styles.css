@@ -1270,7 +1270,7 @@ textarea.form-input::-webkit-resizer{
   .clients-item{
     min-width: calc(33.33% - 10px);
   }
-
+  
   /* Portfolio, Blog */
   .project-img,
   .blog-banner-box{
