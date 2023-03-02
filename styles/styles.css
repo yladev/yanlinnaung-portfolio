@@ -1052,6 +1052,11 @@ a{
   font-weight: var(--fw-300);
 }
 
+.project-title:hover{
+  color: var(--vegas-gold);
+  transition: var(--transition-2);
+}
+
 /* Blog */
 .blog-posts{
   margin-bottom: 10px;
