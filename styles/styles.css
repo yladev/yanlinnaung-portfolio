@@ -88,6 +88,10 @@
   box-sizing: border-box;
 }
 
+*::selection{
+  color: var(--vegas-gold);
+}
+
 a{
   text-decoration: none; 
 }
