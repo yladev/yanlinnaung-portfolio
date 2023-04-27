@@ -1197,9 +1197,8 @@ textarea.form-input::-webkit-resizer{
     width: 24%;
   }
 
-  /* Portfolio, Blog */
-  .project-img,
-  .blog-banner-box{
+  /* Portfolio */
+  .project-img{
     height: auto; 
   }
 
@@ -1456,21 +1455,13 @@ textarea.form-input::-webkit-resizer{
     width: 26%;
   }
 
-  /* Portfolio, Blog */
-  .project-img, .blog-banner-box{
+  /* Portfolio */
+  .project-img{
     border-radius: 16px; 
   }
 
   .project-img img{
     height: 220px;
-  }
-
-  .blog-posts-list{ 
-    gap: 30px; 
-  }
-
-  .blog-content{
-    padding: 25px; 
   }
 
   /* Contact */
@@ -1581,8 +1572,8 @@ textarea.form-input::-webkit-resizer{
     color: var(--orange-yellow-crayola); 
   }
 
-  /* Portfolio and Blog Grid */
-  .project-list, .blog-posts-list{
+  /* Portfolio */
+  .project-list{
     grid-template-columns: 1fr 1fr; 
   }
 
@@ -1687,11 +1678,6 @@ textarea.form-input::-webkit-resizer{
   /* Portfolio */
   .project-img img{
     height: 140px;
-  }
-
-  /* Blog */
-  .blog-banner-box{
-    height: 230px; 
   }
 }
 
